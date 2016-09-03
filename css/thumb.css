@@ -1,0 +1,89 @@
+/* CSS Document */
+
+		
+			
+			.caroufredsel_wrapper {
+			  width: 250px!important;
+			
+			}	
+			
+			
+			#images, #thumbs {
+				  width: 100%!important;
+                  left: 5px!important;
+                  bottom: 0px!important;
+				overflow: hidden;
+			}
+			
+			#thumbs {
+				width: 250px;
+				height: 100px;
+				left: 0px;
+			}
+			#thumbs img {
+				border: 1px solid #eee;
+				padding: 10px;
+				margin: 0 0 0 6px;
+				cursor: pointer;
+			}
+			#thumbs img.selected, #thumbs img:hover {
+				border-color: #aaa;
+			}
+			
+			
+			#prev {
+				background-position: 0 0;
+				left: 15px;
+			}
+			#prev:hover {
+				left: 14px;
+			}			
+			#next {
+				background-position: -18px 0!important;
+				right: 15px;
+			}
+			#next:hover {
+				right: 14px;
+			}			
+
+			#source {
+				text-align: center;
+				width: 400px;
+				margin: 0 0 0 -200px;
+				position: absolute;
+				bottom: 10px;
+				left: 50%;
+			}
+			#source, #source a {
+				color: #999;
+				font-size: 12px;
+			}
+			
+			#donate-spacer {
+				height: 100%;
+			}
+			#donate {
+				border-top: 1px solid #999;
+				width: 750px;
+				padding: 50px 75px;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			#donate p, #donate form {
+				margin: 0;
+				float: left;
+			}
+			#donate p {
+				width: 650px;
+			}
+			#donate form {
+				width: 100px;
+			}
+			
+			
+			
+			
+			
+			
+			
+			

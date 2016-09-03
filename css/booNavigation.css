@@ -1,0 +1,132 @@
+/**
+ * Name: booNavigation.css
+ * Date:Sun 16 Feb 2014
+ * Author: Noemi Losada Estrella <info@noemilosada.com>
+ * Creative Commons License <http://creativecommons.org/licenses/by-sa/3.0/>
+ */
+
+/** General
+================================================== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: 400;
+    
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/** Navigation theme
+================================================== */
+.booNavigation {
+    position: relative;
+}
+
+.booNavigation li.navItem {
+   
+   display: block!important;
+    padding: 12px 20px;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+	position:inherit;
+}
+
+
+.booNavigation li.navItem .navContent {
+   background-color: #5e3b8b;
+  position: absolute;
+  top: 30px;
+  width: auto;
+  z-index: 999;
+  opacity:0.9;
+ }
+ 
+.booNavigation li.navItem .first-last  {   right: 8%!important;
+ }
+
+.booNavigation .navContent > li {
+    color: #fff;
+    float:left;
+    padding: 10px;
+    width: auto;
+}
+
+.booNavigation .navContent ul li a {
+    color: #fff;
+    display: block;
+    padding: 5px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.booNavigation .navContent ul li a:hover {
+    background-color: #f97c04;
+    padding-left: 20px;
+	}
+.navbar-inverse .navbar-collapse {
+    border:none;
+
+}
+ul ul {
+     margin-top: 1%;
+}
+
+.booNavigation .navContent {
+        height:auto!important;
+}
+
+@media (max-width:1300px){
+ .booNavigation li.navItem .navContent { 
+     }
+}
+
+@media (max-width:1200px){
+.booNavigation li.navItem .navContent {
+   right: auto!important; }
+.booNavigation li.navItem .second-last {
+               top: 70px;
+			   right: auto!important;
+}
+
+}
+@media (max-width:991px){
+.booNavigation li.navItem .last {
+               top: 70px!important;
+			   right: auto!important;
+}
+}
+
+@media (max-width:767px){
+
+.booNavigation .navContent > li { padding-right: 10px; 
+               float:none;
+}
+.booNavigation li.navItem .navContent { 
+                position: inherit;
+				width: 100%;                
+}
+
+
+  }
+@media (max-width:480px ) {
+ 
+
+}
